@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+}
+
+.errorpage {
+  display: grid;
+  justify-content: center;
+}
